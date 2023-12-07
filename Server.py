@@ -41,4 +41,4 @@ if __name__ == '__main__':
     GPIO.setup(motor1, GPIO.OUT)
     GPIO.setup(motor2, GPIO.OUT)
 
-    app.run(host = get_ip_address(), port = 9999, debug = True)
+    app.run(host = "192.168.211.38", port = 9999, debug = True)
