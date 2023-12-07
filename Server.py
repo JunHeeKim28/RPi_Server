@@ -50,4 +50,3 @@ if __name__ == '__main__':
     pygame.mixer.init()
     pygame.mixer.music.load("/home/raspberrypi/Junee/ALERT.wav")
     app.run(host = "192.168.211.38", port = 9999, debug = True)
-    #app.run(host = "192.168.0.103", port = 9999, debug = True)
